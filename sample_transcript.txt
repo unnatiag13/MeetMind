@@ -1,0 +1,133 @@
+Raw Messy Meeting Transcript — Product Team Sync
+
+Meeting: Project status + launch planning Date: Tuesday, 10:04 AM Attendees: Aisha, Rahul, Karan, Neha, Vikram
+
+Aisha: Okay, are we all here? I think we're waiting for Vikram.
+
+Rahul: He's in the other meeting, he said he'll join in five minutes.
+
+Karan: Yeah, let's just start. We need to discuss the dashboard first because honestly it's not ready.
+
+Neha: Wait, which part isn't ready? The UI is done, I sent the latest version yesterday.
+
+Karan: The UI is done, but the API integration is still breaking. Like, when you refresh the page, half the data disappears.
+
+Neha: That's because the backend endpoint changed on Friday and nobody told me.
+
+Rahul: I mentioned it in the group.
+
+Neha: You said you were planning to change it. That's not the same as saying it's changed.
+
+Aisha: Okay, okay. Let's not get stuck on this. Rahul, can you confirm the API will be stable by tomorrow?
+
+Rahul: Tomorrow? I mean, probably. There are two bugs left, but one depends on the database migration.
+
+Aisha: What does "probably" mean? We have the demo on Thursday.
+
+Rahul: It means if the migration works, tomorrow. If it doesn't, Friday.
+
+Karan: The demo is Thursday, though.
+
+Rahul: I'm aware.
+
+[Pause — people talking over each other]
+
+Vikram: Hey, sorry, I'm here. What did I miss?
+
+Aisha: Everything and nothing. We're discussing the API delays.
+
+Vikram: Right. So, quick update from my side: the client asked if we can add export to CSV.
+
+Karan: No. Absolutely not. Not this week.
+
+Vikram: I didn't say we should do it this week. I'm just telling you.
+
+Neha: Is that part of the original scope?
+
+Vikram: No, it came up in yesterday's call. They said it'd be useful for reporting.
+
+Aisha: Okay, log it as a new feature request. We are not adding anything before the demo.
+
+Rahul: Can we also decide what data we're actually showing in the demo? Because the staging database has incomplete records.
+
+Karan: I can make mock data.
+
+Rahul: Please don't make another JSON file and call it mock data. We already have three different versions.
+
+Karan: That's a little unfair.
+
+Rahul: Is it inaccurate, though?
+
+Aisha: Guys. Seriously. Karan, use the existing seed script. Don't create another file.
+
+Karan: Fine.
+
+Neha: Also, the login screen still doesn't show a proper error when the password is wrong. It just spins forever.
+
+Vikram: Is that a blocker?
+
+Neha: Yes? Users can't log in properly.
+
+Vikram: I mean for the demo specifically.
+
+Aisha: It's a blocker. Add it to the list.
+
+Rahul: We should probably freeze the code by Wednesday evening. Otherwise Thursday morning is going to be chaos.
+
+Karan: Wednesday evening is aggressive. I still need to fix the mobile layout.
+
+Neha: Mobile isn't even in the demo requirements.
+
+Karan: The client might open it on their phone.
+
+Aisha: They might also open it on a television. We're not optimizing for every possible device right now.
+
+[Laughter]
+
+Vikram: Okay, decisions then. API stable by Wednesday, mock data through the seed script, login error fixed, and no CSV export before the demo.
+
+Rahul: Target API stable by Wednesday. Don't put words in my mouth.
+
+Vikram: Fine, target stable by Wednesday.
+
+Aisha: I'll send the client a status update today. Everyone send me your actual progress by 4 PM, not what you hope to finish.
+
+Karan: Can we move tomorrow's stand-up to 11? I have a class.
+
+Neha: Again?
+
+Karan: I have a timetable, Neha.
+
+Aisha: Put it in the group. We'll figure it out.
+
+Rahul: Are we done? I have to check the migration.
+
+Aisha: Almost. Who owns testing?
+
+[Silence for approximately four seconds]
+
+Neha: Oh, that's not good.
+
+Vikram: I'll take testing coordination, but someone else needs to run the actual tests.
+
+Rahul: I can run backend tests once the migration is done.
+
+Karan: I'll test the UI flows.
+
+Aisha: Great. Neha, please document the test cases. Send them by tomorrow morning.
+
+Neha: Tomorrow morning? Sure. I'll just stop sleeping.
+
+Aisha: Thank you, team. Let's please have fewer surprises this week.
+
+Meeting ended: 10:31 AM
+
+[After the meeting, in the team chat]
+
+Rahul, 10:33 AM: Who approved the database migration again?
+
+Karan, 10:34 AM: Thought you did.
+
+Rahul, 10:34 AM: I approved the draft, not the production migration.
+
+Aisha, 10:35 AM: Wait WHAT. Don't touch anything until we clarify this.
