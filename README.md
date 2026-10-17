@@ -22,7 +22,7 @@
 
 * **Frontend / UI:** [Streamlit](https://streamlit.io/)
 
-* **LLM Engine:** [Groq Cloud](https://console.groq.com/) (`llama-3.3-70b-versatile`)
+* **LLM Engine:** [Groq Cloud](https://console.groq.com/) (`openai/gpt-oss-120b`)
 
 * **SDK & Schemas:** OpenAI Python SDK, [Pydantic](https://docs.pydantic.dev/) (Structured Outputs)
 
